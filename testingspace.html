@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script> 
+        function diditload(){
+            console.log("Load event detected.")
+        }
+        function updatesrc(){
+            document.getElementById("smiles").src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png";
+            document.body.style.backgroundColor = "red";
+        }
+        </script>
+    </head> 
+<body>
+<p>Testing is no longer in use at this point.</p>
+<p>I do want to see about potentially limiting who can see testing but keeping it there as a sudo workspace?</p>
+<br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" alt="Smiley face" width="100px" height="100px" id="smiles" onload=diditload()>  
+<input id="clickMe" type="button" value="clickme" onclick="updatesrc();" />
+</body>
+</html>
+
