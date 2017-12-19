@@ -37,7 +37,7 @@ There are no current testing suite for this project
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/) for details on our code of conduct, and the process for submitting pull requests to us.
+Please don't contribute to this project, it is just for grades, there are better learning opportunities out there! 
 
 ## Authors
 
